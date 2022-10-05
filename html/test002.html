@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Test port folio</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<script src="https://kit.fontawesome.com/d11af67510.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+	<div class="container">
+		<nav>
+			<h2 class="logo">MMLEK</h2>
+			<ul id="sidemenu">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#Portfolio">Portfolio</a></li>
+				<li><a href="#Contact">Contact</a></li>
+				<i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+			</ul>
+			<i class="fas fa-bars" onclick="openmenu()"></i>
+		</nav>
+		<div class="header-text">
+			<p>Hello, my name is</p>
+			<h1>Rungwit Chsang</h1>
+			<h3>communication arts</h3>
+			<h3 id="UTCC">University of the Thai Chamber of Commerce</h3>
+		</div>
+	</div>
+</div><!--class หน้า home -->
+
+	
+<!--เริ่ม class about -->
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="../pic/img001.jpg">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About <span>Me</span></h1>
+				<p>สวัสดีครับผม รุ่งวิทย์ ชูแสง ชื่อเล่นชื่อ เล็ก ผมมีความต้องการฝึกงานในตำแหน่ง Assistant editor / editor เนื่องจากอยากเรียนรู้ในการทำงาน เพื่อช่วยเหลือองค์กร และพัฒนาฝึกฝนศักยภาพของตัวเองให้มีความชำนาญมากยิ่งขึ้น และสามารถที่จะสร้างเอกลักษณ์ของตัวเองให้เด่นชัดยิ่งขึ้น ผมมีความสนใจเกี่ยวกับภาพยนตร์ ซีรีย์ และอนิเมชั่นต่างๆ กิจกรรมยามว่างมักจะดูอนิเมชั่น ภาพยนตร์ </p>
+				
+				<div class="tab-titles">
+					<p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('education')">Education</p>
+				</div>
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li><spen>Premiere pro</spen><br>Good</li>
+						<li><spen>After Effect</spen><br>Good</li>
+						<li><spen>Davinci Resolve</spen><br>Good</li>
+						<li><spen>Photoshop</spen><br>Good</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="education">
+					<ul>
+						<li><spen>2012-2017</spen><br>โรงเรียนพระแม่มารีสาทร</br>GPAX 2.84</li>
+						<li><spen>2019-Present</spen><br>มหาวิทยาลัยหอการค้าไทย</br>GPAX 3.60</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
+<!--เริ่ม class portfolio -->
+<div id="Portfolio">
+<h3 class="heading-Port">Portfo<span>lio</span></h3>
+	
+<div class="contaniner-video">
+	<div class="main-video">
+		<div class="video">
+			<video src="Wonder final.mp4" controls muted autoplay></video>
+			<h3 class="title"><span>Wonder</span><br>ภาพยนตร์สั้นเรื่องนี้เป็นส่วนหนึ่งของรายวิชาการกำกับภาพยนตร์
+			โดยอาจารย์กำหนดโจทย์ให้สร้างภาพยนตร์สั้นโดยการรำหลักการใช้อารมณ์มาใช้</h3>
+			<p class="sub-title-port"></p>
+		</div>
+	</div>
+	
+	<div class="video-list">
+		<div class="vid active">
+			<video src="Wonder final.mp4" muted></video>
+			<h3 class="title"><span>Wonder</span><br>ภาพยนตร์สั้นเรื่องนี้เป็นส่วนหนึ่งของรายวิชาการกำกับภาพยนตร์
+			โดยอาจารย์กำหนดโจทย์ให้สร้างภาพยนตร์สั้นโดยการรำหลักการใช้อารมณ์มาใช้</h3>
+		</div>
+		<div class="vid active">
+			<video src="อ้ายคนหล่อลวง final เเล้วไอ้สัส.mp4" muted></video>
+			<h3 class="title"><span>อ้ายคนหล่อลวง</span><br>ภาพยนตร์สั้นเรื่องนี้เป็นส่วนหนึ่งของรายวิชาการกำกับภาพยนตร์
+				โดยอาจารย์ให้โจทย์ให้ทำการ copy scene ของภาพยนตร์เรื่องใดก็ได้หนึ่งซีน</h3>
+		</div>
+		<div class="vid">
+			<video src="Delusion final.mp4" muted></video>
+			<h3 class="title"><span>Delusion</span><br>ภาพยนตร์เรื่องนี้เป็นส่วนหนึ่งของรายวิชาการผลิตภาพยนต์บันเทิง
+				โดยอาจารย์กำหนดโจทย์ให้สร้างภาพยนตร์ความยาว 40 นาที - 1 ชั่วโมง
+				และถ่ายทำเหมือนภาพยนตร์ใหญ่เรื่องอื่นๆ</h3>
+		</div>
+		<div class="vid">
+			<video src="final cut Detective World7.mp4" muted></video>
+			<h3 class="title"><span>Detective World</span><br>ภาพยนตร์สั้นเรื่องนี้เป็นส่วนหนึ่งของรายวิชาการผลิตภาพยนตร์ดิจิทัล
+				อาจารย์กำหนดโจทย์ให้มีการสร้างภาพยนตร์สั้น 1 เรื่องโดยจะต้องมีความยาว 20-45 นาที
+				ไม่จำกัดไอเดีย</h3>
+			
+		</div>
+		<div class="vid">
+			<video src="The run.mp4" muted></video>
+			<h3 class="title"><span>The run</span><br>ภาพยนตร์สั้นเรื่องนี้เป็นส่วนหนึ่งของรายวิชาการสื่อสารผ่านภาพและเสียง
+				โดยอาจารย์ให้โจทย์มาว่าให้สร้างภาพยนตร์สั้น 1 เรื่องความยาวไม่เกิน 10นาที
+				โดยจะต้องมีการถ่ายทำในมหาวิทยาลัยเเละเป็นภาพยนตร์โปรโมทมหาวิทยาลัย</h3>
+		</div>
+	</div>
+</div>
+</div>
+<script>
+
+	var tablinks = document.getElementsByClassName("tab-links");
+	var tabcontents = document.getElementsByClassName("tab-contents");
+	
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+
+</script>
+
+<script>
+	var sidemenu = document.getElementById("sidemenu");
+
+	function openmenu(){
+		sidemenu.style.right = "0px";
+	}function closemenu(){
+		sidemenu.style.right = "-200px";
+	}
+</script>
+
+<script>
+	
+let listVideo = document.querySelectorAll('.video-list .vid');
+let mainVideo = document.querySelector('.main-video video');
+let title = document.querySelector('.main-video .title');
+	
+listVideo.forEach(video =>{
+	video.onclick = () =>{
+		listVideo.forEach(vid => vid.classList.remove('active'));
+		video.classList.add('active');
+		if(video.classList.contains('active')){
+			let src = video.children[0].getAttribute('src');
+			mainVideo.src = src;
+			let text = video.children[1].innerHTML;
+			title.innerHTML = text;
+		};
+	};
+})
+
+</script>
+
+</body>
+</html>
